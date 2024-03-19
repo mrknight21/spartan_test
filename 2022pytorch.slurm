@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --partition=gpu-a100-short
 #SBATCH --qos=gpgpudeeplearn
-#SBATCH --time=30:00:00
+#SBATCH --time=4:00:00
 #SBATCH --gres=gpu:a100:1
 #SBATCH --mem=24G
 #SBATCH --mail-user=mingbinc@student.unimelb.edu.au
