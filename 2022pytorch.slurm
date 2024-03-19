@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --partition=gpu-a100-short
 #SBATCH --time=4:00:00
-#SBATCH --gres=gpu:a100:1
+#SBATCH --gres=gpu:1
 #SBATCH --mem=24G
 #SBATCH --mail-user=mingbinc@student.unimelb.edu.au
 #SBATCH --mail-type=FAIL
