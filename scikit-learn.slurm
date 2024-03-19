@@ -1,12 +1,12 @@
 #!/bin/bash
 #SBATCH --job-name="scikitlearn"
 #SBATCH --time=0-00:5:00
+#SBATCH --mail-user=mingbinc@student.unimelb.edu.au
+#SBATCH --mail-type=FAIL
+#SBATCH --mail-type=BEGIN
+#SBATCH --mail-type=END
 
-module purge
-module load foss/2022a
-module load scikit-learn/1.1.2
-module load matplotlib/3.5.2
-
+source /data/projects/punim0478/bryan/anaconda3/bin/activate gpu_env
 python3 scikitlearn.py
 
 ##DO NOT ADD/EDIT BEYOND THIS LINE##
