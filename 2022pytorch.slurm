@@ -1,6 +1,5 @@
 #!/bin/bash
 #SBATCH --partition=gpu-a100-short
-#SBATCH --qos=gpgpudeeplearn
 #SBATCH --time=4:00:00
 #SBATCH --gres=gpu:a100:1
 #SBATCH --mem=24G
