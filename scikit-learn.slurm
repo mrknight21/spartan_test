@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --job-name="scikitlearn"
+#SBATCH --job-name="mingbinc_test"
 #SBATCH --time=0-00:5:00
 #SBATCH --mail-user=mingbinc@student.unimelb.edu.au
 #SBATCH --mail-type=FAIL
